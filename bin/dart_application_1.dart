@@ -28,7 +28,7 @@ void main() {
       "Fim do Mês: $mes. População de coelhos: $total. Jovens: $jovens. Adultos: $adultos",
     );
 
-    mes++;
+    mes += 1;
 
     if (total == 0) {
       print("Todos os coelhos foram predados.");
